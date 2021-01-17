@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.clearingthefog" name="Clearing The Fog" version="1.1.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Clearing the FOG is part of the Popular Resistance Podcast Network, a network of progressive podcasters providing independent political analysis</summary>
+    <description lang="en">The ruling FOG (Forces of Greed) spin news stories in their favor and keep the masses distracted with celebrity gossip and reality shows. Each week on Clearing The Fog, we feature guests who are working to expose the truth and offer real solutions to the current crises faced by our nation and the world. Knowledge is power, and with this knowledge you will be empowered to act to shift power to the people and weaken the corporate stranglehold on our lives</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/ClearingTheFog</source>
+    <website>https://popularresistance.org/podcast/</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
